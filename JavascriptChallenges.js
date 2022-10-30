@@ -1,7 +1,6 @@
 let secondHand = document.querySelector(".secHand");
 let minuteHand = document.querySelector(".minHand");
 let hourHand = document.querySelector(".hourHand");
-let clockRound = document.querySelector(".clockRound");
 
 function setDate() {
   let now = new Date();
@@ -14,9 +13,6 @@ function setDate() {
   secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
   minuteHand.style.transform = `rotate(${minutesDegrees}deg)`;
   hourHand.style.transform = `rotate(${hoursDegrees}deg)`;
-  if (hourHand) {
-    clockRound.style.padding = `4rem`;
-  }
 }
 
 setInterval(setDate, 1000);
