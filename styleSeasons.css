@@ -108,8 +108,8 @@ h3 {
 .springBox {
     display: inline-block;
     padding-top: 90px;
-    padding-bottom: 40px;
     margin-left: 50px;
+    margin-right: 50px;
     color: black;
     transform: skewY(8deg);
 }
@@ -124,6 +124,14 @@ h3 {
     margin-top: 40px;
     margin-bottom: 180px;
     margin-left: 50px;
+    padding: 5px;
+    border: 1px solid gray;
+    background: white;
+    box-shadow: 2px 2px 4px grey;
+    width: 300px;
+}
+
+.seasonIMG {
     padding: 5px;
     border: 1px solid gray;
     background: white;
