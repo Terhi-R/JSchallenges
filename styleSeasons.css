@@ -1,8 +1,29 @@
+:root {
+    --summerBase: #C0E699; 
+    --summer: #90BF60;
+    --summerMiddle: #437313;
+    --summerDark: #274D00;
+    --springBase: #FFFCAA;
+    --spring: #D4D16A;
+    --springMiddle: #807C15;
+    --springDark: #555200;
+    --autumnBase: #FFD6AA;
+    --autumn: #D4A16A;
+    --autumnMiddle: #804C15;
+    --autumnDark: #552C00;
+    --winterBase: #738CA6;
+    --winter: #4A6B8A;
+    --winterMiddle: #133253;
+    --winterDark: #041D37;
+}
+
 body {
-    background: lightgray;
+    background: #608D8A;
     padding: 0px;
     margin: 0px;
 }
+
+
 
 h1 {
     margin-top: 70px;
@@ -23,11 +44,35 @@ h2 {
 }
 
 h3 {
-    margin-top: 140px;
-    margin-bottom: 0px;
-    margin-left: 10%;
-    font-size: 50px;
     font-weight: lighter;
+    font-size: 50px;
+}
+
+.springH {
+    z-index: 1;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -80px;
+    color: var(--springMiddle);
+}
+
+.headline {
+    z-index: 1;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -80px;
+}
+
+.summerH {
+    color: var(--summerDark);
+}
+
+.autumnH {
+    color: var(--autumnDark);
+}
+
+.winterH {
+    color: var(--winterDark);
 }
 
 .underline {
@@ -36,24 +81,66 @@ h3 {
     border-bottom: 2px solid #000;
 }
 
-.spring {
-    position: relative;
-    z-index: -1;
-    margin-top: -40px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+.horizontal {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    transform: skewY(-8deg);
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
-    background: lightcyan;    
-    transform: skewY(-8deg);
+    height: 600px;
+}
+
+.spring {
+    background: var(--springBase);
+}
+
+.summer {
+    background: var(--summerBase);
+}
+
+.autumn {
+    background: var(--autumnBase);
+}
+
+.winter {
+    background: var(--winterBase);
 }
 
 .springBox {
-    padding-top: 40px;
+    display: inline-block;
+    padding-top: 90px;
     padding-bottom: 40px;
-    text-align: center;
+    margin-left: 50px;
     color: black;
     transform: skewY(8deg);
+}
+
+.aboutIMG {
+    margin-top: 40px;
+    margin-bottom: 180px;
+    margin-left: 50px;
+    width: 30%;
+    padding: 5px;
+    border: 1px solid gray;
+    background: white;
+    box-shadow: 2px 2px 4px grey;
+}
+
+.break {
+    height: 70px;
+    background: white;
+    transform: skewY(-8deg);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    margin: 0px;
+    padding: 0px;
 }
 
 @media (max-width: 1000px) {
