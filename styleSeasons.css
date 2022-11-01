@@ -86,8 +86,6 @@ h3 {
     overflow-y: hidden;
     white-space: nowrap;
     transform: skewY(-8deg);
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
     height: 600px;
 }
 
