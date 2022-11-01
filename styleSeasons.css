@@ -1,5 +1,7 @@
 body {
     background: lightgray;
+    padding: 0px;
+    margin: 0px;
 }
 
 h1 {
@@ -20,11 +22,38 @@ h2 {
     font-weight: lighter;
 }
 
+h3 {
+    margin-top: 140px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    font-size: 50px;
+    font-weight: lighter;
+}
 
 .underline {
     text-align: center;
     width: 64%;
     border-bottom: 2px solid #000;
+}
+
+.spring {
+    position: relative;
+    z-index: -1;
+    margin-top: -40px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background: lightcyan;    
+    transform: skewY(-8deg);
+}
+
+.springBox {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: black;
+    transform: skewY(8deg);
 }
 
 @media (max-width: 1000px) {
