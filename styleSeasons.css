@@ -1,0 +1,49 @@
+body {
+    background: lightgray;
+}
+
+h1 {
+    margin-top: 70px;
+    margin-bottom: 6px;
+    padding-left: 80px;
+    padding-right: 40px;
+    font-size: 40px;
+}
+
+.h1Word {
+    color: blue;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: lighter;
+}
+
+
+.underline {
+    text-align: center;
+    width: 64%;
+    border-bottom: 2px solid #000;
+}
+
+@media (max-width: 1000px) {
+    .underline {
+        width: 557px;
+    }
+    h2 {
+        text-align: start;
+        padding-left: 35%;
+    }
+}
+@media (max-width: 692px) {
+    .underline {
+        width: 370px;
+    }
+
+    h2 {
+        text-align: start;
+        padding-left: 15%;
+        transition: ease-in-out;
+    }
+}
