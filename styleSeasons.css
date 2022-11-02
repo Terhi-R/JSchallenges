@@ -18,7 +18,7 @@
 }
 
 body {
-    background: #608D8A;
+    background: #CAD6E2;
     padding: 0px;
     margin: 0px !important;
 }
@@ -38,6 +38,7 @@ h1 {
 h2 {
     text-align: center;
     margin-top: 0px;
+    margin-left: 65px;
     font-weight: lighter;
 }
 
@@ -75,7 +76,7 @@ h3 {
 
 .underline {
     text-align: center;
-    width: 64%;
+    width: 65%;
     border-bottom: 2px solid #000;
 }
 
@@ -135,7 +136,7 @@ h3 {
 
 .aboutIMG {
     margin-top: 40px;
-    margin-bottom: 180px;
+    margin-bottom: 50px;
     margin-left: 50px;
     padding: 5px;
     border: 1px solid gray;
@@ -168,7 +169,7 @@ h3 {
 .textBox {
     margin-top: 40px;
     padding-left: 40px;
-    width: 40%;
+    width: 30%;
 }
 
 footer, .footer {
@@ -184,13 +185,13 @@ footer, .footer {
     color: black;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1127px) {
     .underline {
-        width: 557px;
+        width: 659px;
     }
     h2 {
         text-align: start;
-        padding-left: 35%;
+        padding-left: 34%;
     }
 }
 @media (max-width: 692px) {
@@ -210,7 +211,9 @@ footer, .footer {
     }
 
     .textBox {
-        margin-top: -150px;
+        margin-top: -40px;
         margin-bottom: 100px;
+        margin-left: 30px;
+        width: 50%;
     }
 }
